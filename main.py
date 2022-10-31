@@ -143,4 +143,5 @@ if __name__ == '__main__':
     out_file = '{}.txt'.format(datetime.datetime.now().strftime('%d-%m-%Y %H-%M-%S'))
     print(f'Starting processing! Output file: {out_file}')
     find_nfts(driver, out_file, MAX_PRICE)
-    os.startfile(out_file)
+    if os.path.isfile(out_file):
+        os.startfile(out_file)
