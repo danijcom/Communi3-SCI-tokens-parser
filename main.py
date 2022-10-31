@@ -66,7 +66,7 @@ def process_nfts(driver, processed, file, max_price) -> tuple[list, list, bool]:
         WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "css-g0fuxu")))
     except Exception as ex:
         print("Can't find NFTs cards. "
-              "May be you have to replace its class in script (read ..)")
+              "May be you have to replace its class in script (read https://github.com/danijcom/Communi3-SCI-tokens-parser#troubleshooting)")
         driver.quit()
         quit(0)
     all_items = driver.find_elements(By.CLASS_NAME, "css-g0fuxu")
