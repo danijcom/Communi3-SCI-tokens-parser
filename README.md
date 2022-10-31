@@ -1,5 +1,6 @@
-# Communi3 $SCI tokens parser
+# Communi3 Mad Scientists $SCI tokens parser
  App based on [Selenium](https://github.com/SeleniumHQ/selenium/tree/trunk/py) to parse [Communi3](https://nft.communi3.io/) NFTs from [hyperspace market](https://hyperspace.xyz/collection/communi3madscientists) and get `$SCI` price for all of them.
+<img width="405" alt="MS_PP" src="https://user-images.githubusercontent.com/46953160/199121279-e24f7365-597c-44ee-8631-24e83e7996ec.png">
 
 ## Requirements
 * Windows OS
